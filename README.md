@@ -44,3 +44,6 @@ Balancing of symbols:** Stack is used for balancing a symbol.As we know, each pr
 Expression conversion:** Stack can also be used for expression conversion. This is one of the most important applications of stack. The list of the expression conversion is given below: Infix to prefix Infix to postfix Prefix to infix Prefix to postfix Postfix to infix
 
 UNDO/REDO: It can also be used for performing UNDO/REDO operations. For example, we have an editor in which we write 'a', then 'b', and then 'c'; therefore, the text written in an editor is abc. So, there are three states, a, ab, and abc, which are stored in a stack. There would be two stacks in which one stack shows UNDO state, and the other shows REDO state. If we want to perform UNDO operation, and want to achieve 'ab' state, then we implement pop operation.
+
+OUTPUT:
+![Screenshot 2023-04-02 044512](https://user-images.githubusercontent.com/125973911/229320498-d0e63714-dcd0-41d5-ab47-e4df579f0d5f.png)
